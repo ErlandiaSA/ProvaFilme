@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-ProvafilmeApplication<provafilme>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "br.com.tech4me.provafilme.ProvafilmeApplication",
+            "projectName": "provafilme",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
