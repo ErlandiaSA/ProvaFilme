@@ -7,13 +7,23 @@
 			"path": "eureka-server"
 		},
 		{
-			"path": "zuul"
+			"path": "zuul-server"
 		},
 		{
-			"path": "zuul-server"
+			"path": "config"
+		},
+		{
+			"path": "config-server"
+		},
+		{
+			"path": "vendas-ms"
 		}
 	],
 	"settings": {
-		"java.configuration.updateBuildConfiguration": "interactive"
+		"java.configuration.updateBuildConfiguration": "automatic",
+		"maven.view": "hierarchical",
+		"java.project.sourcePaths": [
+			""
+		]
 	}
 }
